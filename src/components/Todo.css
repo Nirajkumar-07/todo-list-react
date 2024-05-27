@@ -1,0 +1,44 @@
+.container{
+    height: 100px;
+    left: 0;
+    line-height: 90px;
+    width: 300px;
+    margin-top: 3rem;
+}
+.control{
+    left: 50%;
+    padding: 0px 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    background-color: #dbdbdb;
+    height: 50px;
+    margin-right: 10px;
+}
+.btn-add{
+    color: #fff;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: blue;
+}
+.list-body li{
+    list-style: none;
+    padding: 5px;
+    color: cyan;
+    padding: 5px;
+    margin: 15px 0px;
+    border: 1px solid cyan;
+    width: 250px;
+}
+.list-body li span{
+    cursor: pointer;
+    float: right;
+}
+.list-body li span:hover{
+    color: red;
+}
